@@ -33,4 +33,4 @@ jobs:
         docker build . -t shai2426/learn-go:v1.0.0
     - name: docker push
       run: |
-        docker push -t shai2426/learn-go:v1.0.0
+        docker push shai2426/learn-go:v1.0.0
